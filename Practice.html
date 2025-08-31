@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finalize Your Application</title>
+  </head>
+  <body style="margin:0; padding:0; background-color:#ffffff; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <!-- Wrapper -->
+    <div style="max-width:550px; margin:0 auto; background-color:#e7d7c1; padding:10px; border:3px solid #735751; border-radius:12px; box-sizing:border-box;">
+      <!-- Header -->
+      <div style="text-align:center; font-size:18px; font-weight:600; padding:15px; background-color:#ffffff; color:#2c3e50; border-radius:12px 12px 0 0;">
+        {{first_name}}, Finalize Your Application to Proceed
+        <p style="margin:6px 0 0; font-size:14px; font-weight:500; color:#555555;">Your progress is saved—just one step remains</p>
+      </div>
+
+      <!-- Info Table (2-column) -->
+      <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse; font-size:14px; margin-top:15px;">
+        <tr>
+          <th align="left" style="padding:10px; background-color:#735751; color:#ffffff; text-align:left; width:35%; font-weight:700;">Name</th>
+          <td style="padding:10px; background-color:#f5e9dc; color:#2c3e50;">{{first_name}} {{last_name}}</td>
+        </tr>
+        <tr>
+          <th align="left" style="padding:10px; background-color:#735751; color:#ffffff; text-align:left; width:35%; font-weight:700;">Email</th>
+          <td style="padding:10px; background-color:#f5e9dc; color:#2c3e50;">
+            <a href="mailto:{{email}}" style="color:#2c3e50; text-decoration:none;">{{email}}</a>
+          </td>
+        </tr>
+        <tr>
+          <th align="left" style="padding:10px; background-color:#735751; color:#ffffff; text-align:left; width:35%; font-weight:700;">Status</th>
+          <td style="padding:10px; background-color:#f5e9dc; color:#d10000; font-weight:700;">Incomplete</td>
+        </tr>
+      </table>
+
+      <!-- Body Copy + CTA -->
+      <div style="padding:15px; text-align:justify; line-height:1.6; color:#2c3e50;">
+        Hey {{first_name}},<br /><br />
+        Your application is almost complete. To avoid delays and secure your progress, please review the remaining details and confirm your information. This will help us prioritize your next steps.
+
+        <!-- CTA Button (block-level for email clients) -->
+        <div style="background-color:#735751; width:260px; max-width:90%; margin:20px auto 0; text-align:center; padding:10px 16px; border-radius:12px; border:3px solid #a78a7f;">
+          <a href="https://dp.wookyes.com/673b37c8b517eeca916c0aec?pubid=6718e17128436d3ad7b7f78e&email={{email}}&firstname={{first_name}}&lastname={{last_name}}&affsub2={{ocx_connection_id}}&affsub3={{ocx_list_id}}_{{supplier}}_{{ocx_mailing_id}}_{{ocx_message_id}}&affsub4={{ocx_from_address_domain}}&affsub5=JVK&affsub6={{ocx_mailing_id}}&affsub7={{ocx_message_id}}&affsub8={{ocx_list_id}}"
+             style="display:inline-block; text-decoration:none; color:#ffffff; font-weight:700; letter-spacing:0.5px;">Complete Application</a>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <hr style="height:1px; border:0; background-color:#523d39; margin:20px 0;" />
+
+      <!-- Footer / Unsubscribe -->
+      <div style="max-width:550px; margin:0 auto; padding:3% 2%; line-height:1.4; font-size:11px; color:#000000; text-align:center;">
+        This notification email has been sent to
+        <a style="color:#000000; text-decoration:none;" href="mailto:{{email}}">{{email}}</a>.
+        To unsubscribe, click
+        <a href="https://affiliates.unsubstation.com/unsubscribe/AAFrzNjRhs7BHTI6PUShy8rlcuU7V5f6vjY4Om3mHFvSFJV1IV8blFfSA40SnracxFaLfF-3kkujPcTn_kNuJ2tRL-Sicj0KMr4YXEkuULQjm13SvEq7F-MPYMh8L1yAl-E=" style="color:#000000;">here</a>.
+        <div style="margin-top:6px;">Our address: 1309 E 3rd Ave Suite 202 Durango, CO 81301</div>
+      </div>
+    </div>
+
+    <!-- Minimal mobile-friendly adjustments without media queries: use full-width container on small screens -->
+    <div style="display:none;">&nbsp;</div>
+  </body>
+</html>
